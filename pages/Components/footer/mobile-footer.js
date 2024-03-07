@@ -104,7 +104,7 @@ export default function MobileFooter(){
                     </div>
                 </div>
                 <h2 className="footer-navigation-item">
-                    <Link href={menu.linkToMainMenu3} className="footer-navigation-item">
+                    <Link href={processedInfo.callBusiness} className="footer-navigation-item">
 
                         {menu.mainMenu3}
 

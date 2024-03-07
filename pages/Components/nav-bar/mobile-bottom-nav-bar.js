@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import { images } from '/pages/core/info';
 import { menu } from '/pages/core/info';
+import { processedInfo } from '/pages/core/info';
 
 
 export default function MobileBottomNavBar(){
@@ -39,7 +40,7 @@ export default function MobileBottomNavBar(){
                         </div>
 
                     </Link>
-                    <Link href={menu.linkToMainMenu3} className="mobile-bottom-nav-bar-link-a">
+                    <Link href={processedInfo.callBusiness} className="mobile-bottom-nav-bar-link-a">
 
                         <div className="mobile-bottom-nav-bar-contact-us">
                             <div>

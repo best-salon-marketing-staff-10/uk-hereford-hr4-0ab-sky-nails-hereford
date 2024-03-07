@@ -16,11 +16,8 @@ import { imageAlt } from '/pages/core/info';
 
 
 export default function DesktopContent(){
-    
-    return(
-        <>
-            <div className="desktop-about-us">
-                <div>
+    /*
+    <div>
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item>
                             <div className="desktop-about-us-carousel-image">
@@ -39,6 +36,11 @@ export default function DesktopContent(){
                         </Carousel.Item>
                     </Carousel> 
                 </div>
+    */
+    return(
+        <>
+            <div className="desktop-about-us">
+                
                 <div className="desktop-about-us-our-story">
                     <OurStory />
                 </div>

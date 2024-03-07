@@ -10,7 +10,7 @@ import { NavDropdown } from 'react-bootstrap';
 import LogoNav from '/pages/Components/logo-nav/logo-nav';
 import { menu } from '/pages/core/info';
 import { serviceCategory } from '/pages/core/info';
-
+import { processedInfo } from '/pages/core/info';
 
 
 
@@ -133,7 +133,7 @@ export default function DesktopNavBar(){
                                     </div>
                                 </div>
                                 <h2 className="nav-bar-main-category">
-                                    <Link href={menu.linkToMainMenu3} className="nav-bar-link-main-menu">
+                                    <Link href={processedInfo.callBusiness} className="nav-bar-link-main-menu">
 
                                         {menu.mainMenu3}
 

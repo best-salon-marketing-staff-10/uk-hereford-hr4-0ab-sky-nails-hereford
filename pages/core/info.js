@@ -60,26 +60,26 @@ serviceList
   */
 const businessOpeningTimeInput = {
   //Thời gian làm việc của tiệm
-  monOpeningTime : "10:00",
-  monClosingTime : "19:00",
+  monOpeningTime : "09:00",
+  monClosingTime : "18:00",
 
-  tueOpeningTime : "10:00",
-  tueClosingTime : "19:00",
+  tueOpeningTime : "09:00",
+  tueClosingTime : "18:00",
 
-  wedOpeningTime : "10:00",
-  wedClosingTime : "19:00",
+  wedOpeningTime : "09:00",
+  wedClosingTime : "18:00",
 
-  thuOpeningTime : "10:00",
-  thuClosingTime : "19:00",
+  thuOpeningTime : "09:00",
+  thuClosingTime : "18:00",
 
-  friOpeningTime : "10:00",
-  friClosingTime : "19:00",
+  friOpeningTime : "09:00",
+  friClosingTime : "18:00",
 
-  satOpeningTime : "10:00",
-  satClosingTime : "19:00",
+  satOpeningTime : "09:00",
+  satClosingTime : "18:00",
 
-  sunOpeningTime : "11:00",
-  sunClosingTime : "17:00",
+  sunOpeningTime : "",
+  sunClosingTime : "",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,52 +91,52 @@ const processedBusinessOpeningTime = {
   workingTimeThu : "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "-" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri : "Friday: " + businessOpeningTimeInput.friOpeningTime + "-" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat : "Saturday: " + businessOpeningTimeInput.satOpeningTime + "-" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun : "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "-" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun : "Sunday: Closed " + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
 }
 
 
 const changedInfo = {
-  businessName: "Green Nail Bar",
-  businessAddressLevel1: "341 Caledonian Rd",
-  businessAddressLevel2: "Islington",
-  businessAddressLevel3: "London",
+  businessName: "Sky Nails Hereford",
+  businessAddressLevel1: "23 Eign Gate",
+  businessAddressLevel2: "Hereford",
+  businessAddressLevel3: "Herefordshire",
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
-  businessAddressDivisionCode: "ISL",
+  businessAddressDivisionCode: "HEF",
 
-  businessPostCode: "N1 1DW",
+  businessPostCode: "HR4 0AB",
   
-  businessPhoneNumber: "020 7998 7663",
+  businessPhoneNumber: "07380440700",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "https://greennailbar.web.app",
+  businessWebsite: "https://sky-nails-hereford.web.app",
 
   //
   linkBookingMap: "",
   //
-  linkBookingApp: "https://bit.ly/greennailbarN11DW",
+  linkBookingApp: "",
   
-  linkToMap: "https://g.page/r/Camh0XDrJzW3EBM/",
+  linkToMap: "https://maps.app.goo.gl/nr3xTKNUAmo5enPb7",
 
   //Mở Google Maps tiệm, zoom sát vào, chuột phải 
-  geoLatitude: 51.54230255634638,
-  geoLongitude: -0.11742491963492957,
+  geoLatitude: 52.05635112934091,
+  geoLongitude: -2.7189559870643794,
 
   //Code xác minh của website trên Google Search
   //***********
   metaGoogleSiteVerification: "qnij4LzYIxd0ns7ww7gjQ2f9USw-fOXSH_LU8dN-5Uk",
 
   //iframe map
-  //Mở Google Maps, search tên tiệm, bấm nút chia sẻ, qua mục Embed a map là thấy, chỉ lấy phần link https
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.08834305922463!2d-0.11753489019785318!3d51.54231652721828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ba1c1c59ed7%3A0xb73527eb70d1a1a9!2sGreen%20Nail%20Bar!5e0!3m2!1sen!2suk!4v1705128499227!5m2!1sen!2suk",
+  //Mở Google Maps, search tên tiệm, bấm nút chia sẻ, qua mục Embed a map là thấy, chỉ lấy phần link https 
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.284206766978!2d-2.7189557999999994!3d52.05634849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48704b4af37a40d9%3A0x8a2d1c67992da3cc!2sSky%20Nails%20Hereford!5e0!3m2!1sen!2sus!4v1709612909086!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://greennailbar.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
-  icon:"/icon1.png",
-  businessLogo:"/logo1.png",
+  ogImage:"https://sky-nails-hereford.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
+  icon:"/icon.jpg",
+  businessLogo:"/logo.jpg",
 }
 
 const menu = {
@@ -436,7 +436,7 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "nanny jan",
+  schemaPersonReviewAuthorName: "Freya Griffiths",
   //Xem điểm review trung bình của tiệm là bao nhiêu
   schemaRatingValue: "4.4",
   schemaBestRating: "5",
@@ -739,7 +739,7 @@ const images = {
 
   section6Image1 : "/images/nail-extension-2.jpg",
 
-  section7Image1 : "/images/nail-extension-3-1.jpg",
+  section7Image1 : "/images/nail-extension-3.jpg",
   section7Image2 : "/images/nail-extension-4.jpg",
 
   LocationImage1 : "/images/nail-extension-11.jpg",
@@ -846,23 +846,22 @@ const images = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "28",
+    service1Price : "30",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
-  
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
-    service2Price : "22",
+    service2Price : "23",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "38",
+    service3Price : "35",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
-    service4Price : "32",
+    service4Price : "28",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
     
     service5 : "Gel Powder Full Set with normal nail polish",
@@ -884,20 +883,20 @@ const images = {
     service8Time : "45 mins",
     service8Price : "26",
     service8Description : "",
-  
+
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "40",
+    service9Price : "38",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
     service10 : "Infill Ombre",
     service10Time : "45 mins",
     service10Price : "35",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
-    service11Price : "40",
+    service11Price : "35",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -929,10 +928,10 @@ const images = {
     service17Time : "1 hr",
     service17Price : "35",
     service17Description : "",
-  
+
     service18 : "Take off Powder",
     service18Time : "20 mins",
-    service18Price : "14",
+    service18Price : "10",
     service18Description : "Just take off",
   
     service19 : "Take off Acrylic and Redone a Newset",
@@ -959,15 +958,15 @@ const images = {
     service23Time : "45 mins",
     service23Price : "37",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
-  
+
     service24 : "BIAB buider gel Fullset",
     service24Time : "35 mins",
-    service24Price : "35",
+    service24Price : "40",
     service24Description : "Builder in a Bottle (BIAB) gel is a revolutionary nail enhancement technique that delivers a flawless and long-lasting finish. The process begins with the careful preparation of your natural nails, ensuring a clean canvas for the application of the BIAB gel. Our technicians expertly sculpt and shape the gel to achieve the desired length and form, resulting in a set of nails that perfectly complements your hands.",
-  
+
     service25 : "BIAB buider gel Infill",
     service25Time : "30 mins",
-    service25Price : "30",
+    service25Price : "35",
     service25Description : "Our skilled technicians meticulously assess the condition of your current BIAB manicure, addressing any signs of wear or regrowth. They then delicately apply the BIAB gel to the regrowth area, ensuring a smooth and flawless transition from the natural nail to the existing gel overlay. This process not only maintains the aesthetic appeal of your manicure but also enhances the structural integrity of your nails.",
 
     service26 : "Long nails extra",
@@ -1077,7 +1076,7 @@ const images = {
 
     service47 : "Infill Colour Powder",
     service47Time : "45 mins",
-    service47Price : "35",
+    service47Price : "30",
     service47Description : "",
 
     service48 : "Take off BIAB and Redone a Newset",
@@ -1130,27 +1129,41 @@ const images = {
     service57Price : "40",
     service57Description : "",
 
+    service58: "Full set Acrylic nail",
+    service58Time: "45 mins",
+    service58Price: "30",
+    service58Description: "",
+
+    service59: "Infill Acrylic nail",
+    service59Time: "45 mins",
+    service59Price: "23",
+    service69Description: "",
+
+    service60: "BIAB buider gel on natural nails",
+    service60Time: "60 mins",
+    service60Price: "25",
+    service60Description: "This service will leave your nails looking stunning and fabulous, making you feel confident and beautiful. The BIAB builder gel creates a long-lasting and durable finish for your nails, perfect for those who desire low maintenance and chip-free nails. Our skilled technicians will carefully apply the builder gel to create the look you desire, leaving you with salon-quality nails that will last for weeks. So, why not treat yourself and embrace the feeling of self-love by booking a BIAB Builder Gel Fullset today!",
     }; 
   
   const serviceList2 = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
-    service1Price : "24",
+    service1Price : "20",
     service1Description : "",
-  
+
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "28",
+    service2Price : "20",
     service2Description : "",
   
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
     service3Price : "28",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
-  
+
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "40",
+    service4Price : "35",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Gel Polish Pedicure",
@@ -1198,12 +1211,12 @@ const images = {
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
-    service1Price : "20",
+    service1Price : "18",
     service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
-  
+
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "33",
+    service2Price : "30",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
     
     service3 : "Luxury Pedicure",
@@ -1220,15 +1233,15 @@ const images = {
     service5Time : "1 hr 15 mins",
     service5Price : "40",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
-  
+
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
     service6Price : "12",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
-  
+
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
-    service7Price : "14",
+    service7Price : "12",
     service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
 
     service8 : "Smoothing Pedicure with normal polish",
@@ -1353,9 +1366,9 @@ const images = {
 
     service32 : "Manicure",
     service32Time : "20 mins",
-    service32Price : "17",
+    service32Price : "12",
     service32Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
-  
+
     service33 : "Pedicure",
     service33Time : "30 mins",
     service33Price : "30",
@@ -1417,7 +1430,7 @@ const images = {
   const serviceList5 = {
     service1 : "Nail Design (from)",
     service1Time : "",
-    service1Price : "7",
+    service1Price : "5",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
   
     service2 : "Diamond Crystal x10 (from)",

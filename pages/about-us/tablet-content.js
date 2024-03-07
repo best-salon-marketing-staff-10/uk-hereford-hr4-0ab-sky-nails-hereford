@@ -14,11 +14,8 @@ import { imageAlt } from '/pages/core/info';
 
 
 export default function TabletContent(){
-    
-    return(
-        <>
-            <div className="tablet-about-us">
-                <div>
+    /*
+    <div>
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item>
                             <div className="carousel-image">
@@ -37,6 +34,11 @@ export default function TabletContent(){
                         </Carousel.Item>
                     </Carousel> 
                 </div>
+    */
+    return(
+        <>
+            <div className="tablet-about-us">
+                
 
                 <div className="tablet-about-us-our-story">
                     <OurStory />
