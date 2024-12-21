@@ -343,11 +343,11 @@ const processedInfo = {
 
   //offer.js
   offerTitle : "Our Offers and Benefits",
-  offerDescription : "Free all cold drink and hot drink, chocolate, sweet or snack",
+  offerDescription : "",
   offerHeading : "Our offers:",
-  offerContent1 : "✅10% for Student. ",
-  offerContent2 : "✅Refer a friend to get 5 pounds voucher. ",
-  offerContent3 : "✅Group from 3 people get 10% with the main treatment",
+  offerContent1 : "✅10% discount for Student. ",
+  offerContent2 : "",
+  offerContent3 : "",
 }
 
 const headerInput = {

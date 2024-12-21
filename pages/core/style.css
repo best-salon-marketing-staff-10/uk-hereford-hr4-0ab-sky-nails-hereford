@@ -253,9 +253,7 @@
   */
   .services-list-4,
   .services-list-6,
-  .services-list-7,
-  .offers
-  {
+  .services-list-7{
     display: none;
   }
   /*Các list dịch vụ hiển thị cần phải cách nhau 1 khoảng
@@ -896,6 +894,7 @@
     /*offers.js
     */
     .offers{
+      text-align: center;
       margin-top: 30px;
       margin-bottom: 100px;
       margin-left: 20px;
@@ -924,7 +923,6 @@
       margin-top: 30px;
     }
     .offers-description{
-      
       margin: 10px;
       margin-bottom: 100px;
       color: #8A94A6;
@@ -938,6 +936,10 @@
       margin-left: 30px;
       margin-right: 30px;
       color: #FF0041;
+    }
+
+    .offers-content{
+      font-size: 22px;
     }
   /*Phần Customer Review của tiệm
   */
