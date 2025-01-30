@@ -825,9 +825,9 @@ const images = {
   //Ảnh customer review - customer-review.js
   cusReviewImage1 : "/images/nail-salon-customer-review-1.jpg",
   cusReviewImage2 : "/images/nail-salon-customer-review-2.jpg",
-  cusReviewImage3 : "/images/nail-salon-customer-review-3.jpg",
-  cusReviewImage4 : "/images/nail-salon-customer-review-4.jpg",
-  cusReviewImage5 : "/images/nail-salon-customer-review-5.jpg",
+  cusReviewImage3 : "/images/nail-salon-customer-review-3.JPG",
+  cusReviewImage4 : "/images/nail-salon-customer-review-4.JPG",
+  cusReviewImage5 : "/images/nail-salon-customer-review-5.JPG",
 
 
   //Ảnh Footer
