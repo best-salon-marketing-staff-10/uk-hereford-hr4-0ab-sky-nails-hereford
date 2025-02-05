@@ -136,7 +136,7 @@ const changedInfo = {
   // Các ảnh của tiệm
   ogImage:"https://sky-nails-hereford.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
   icon:"/icon.jpg",
-  businessLogo:"/logo.jpg",
+  businessLogo:"/logo.png",
 }
 
 const menu = {
