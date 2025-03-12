@@ -118,8 +118,8 @@ const changedInfo = {
   linkBookingMap: "",
   //
   linkBookingApp: "",
-  
-  linkToMap: "https://maps.app.goo.gl/nr3xTKNUAmo5enPb7",
+
+  linkToMap: "  https://g.page/r/CcyjLZlnHC2KEBM/",
 
   //Mở Google Maps tiệm, zoom sát vào, chuột phải 
   geoLatitude: 52.05635112934091,
